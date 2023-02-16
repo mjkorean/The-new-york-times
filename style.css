@@ -1,0 +1,78 @@
+.side-menu {
+  height: 100%;
+  width: 100;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side-menu .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  border: none;
+  background: none;
+}
+
+.side-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-menu-list button {
+  margin: 5px;
+  border: none;
+  background: none;
+  width: 120px;
+}
+
+.side-menu-list button:hover {
+  background-color: white;
+  border-radius: 3px;
+}
+
+.head-line {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.head-line svg {
+  width: 430px;
+}
+
+.menus {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #1095c1;
+  border-bottom: 4px double #1095c1;
+}
+
+.menus button {
+  border: none;
+  background: none;
+  margin: 5px;
+}
+
+.menus button:hover {
+  background-color: whitesmoke;
+}
+
+.news-image {
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.news {
+  border-bottom: 1px solid #1095c1;
+}
